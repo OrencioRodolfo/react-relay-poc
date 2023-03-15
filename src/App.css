@@ -1,5 +1,16 @@
-.App {
-  text-align: center;
+html, body, #root, #App {
+  display: flex;
+  flex-grow: 1;
+  color: whitesmoke;
+}
+
+#App {
+  background-color: #313131;
+  padding: 20px;
+}
+
+ul, li {
+  list-style: none;
 }
 
 .App-logo {
